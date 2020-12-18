@@ -2,12 +2,12 @@ package ClassDay2;
 
 public class InstanceMethod {
 
-	public static void main(String[] args) {
+/*	public static void main(String[] args) {
 		
 		InstanceMethod ins = new InstanceMethod();
 		ins.m1();
 		ins.m1(25);
-		ins.m1(25, "DHAKA");
+		ins.m1(25, "DHAKA");*/
 		
 		
 	
@@ -27,7 +27,7 @@ public class InstanceMethod {
 	}
 	
 	public void m1(int age, String city) {
-		System.out.println("I am m1 with 2 argument");
+		System.out.println("I am m1 with 2 argument" + age + city);
 		
 	}
 	
