@@ -9,9 +9,9 @@ public class Scenario1 {
 	//Scenario 1: Create two local  variables with different primitive data types and sum their value.
 		
 		int a=100;
-		int b = 200;
+		long b = 200;
 		
-		int sum=a+b;
+		long sum=a+b;
 		
 		System.out.println(sum);
 		
